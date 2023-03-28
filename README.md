@@ -11,5 +11,4 @@ Cette Action installe les dependances du projet et lance les tests unitaires ave
 
 - La première étape contient un paramètre ‘with’, a quoi sert-il ?
 
-
-Personal access tokens : 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
+Personal access tokens : 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
