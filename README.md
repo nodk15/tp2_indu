@@ -37,3 +37,25 @@ Permet de détecter des parties sensible du code potentiellement vulnérables (e
 - À quoi sert l’indicateur Quality Gate ?
 
 Le Quality Gate est un ensemble de conditions booléennes basées sur des mesures. Il vous permet de savoir immédiatement si votre projet est prêt pour la production. Si votre statut actuel n'est pas "Passé", vous verrez quelles mesures ont causé le problème et les valeurs requises pour passer.
+
+
+b)
+
+- Quelle est la différence entre les sections New code et Overall Code dans l’onglet Summary ?
+
+La section New code contient les informations sur le code ajouté dans la branche depuis la dernière analyse. La section Overall Code contient les informations sur l’ensemble du code de la branche.
+
+- Y a-t-il des Code Smells ? Si oui, combien et pour quelle(s) raisons(s) ?
+
+Oui, 3 Code Smells :
+
+    - une fonction identique mais pas avec le même nom
+
+    - un argument "deferred" non utilisé dans une méthode
+
+    - un argument "deferred" non utilisé dans uen méthode
+
+- Y a-t-il des Security Hotspots ? Si oui, combien et pour quelle(s)raison(s) ?
+
+Oui, 1, car l'image docker qu'on récupère tourner par défault sur root.
+
